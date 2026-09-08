@@ -1,0 +1,14 @@
+# NEVER commit player data, KYC documents (Ghana Cards / selfies), or session tokens
+# Covers both repo layouts: casino/ as repo root, or casino/ as a subfolder
+data/
+data/**
+casino/data/
+casino/data/**
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+node_modules/
+.env
