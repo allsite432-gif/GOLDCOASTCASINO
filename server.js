@@ -6,7 +6,6 @@ const C = require('./config');
 const { Router, json } = require('./src/router');
 const { db, load, save } = require('./src/store');
 const auth = require('./src/auth');
-const wallet = require('./src/wallet');
 const kyc = require('./src/kyc');
 const games = require('./src/games');
 const live = require('./src/live');
